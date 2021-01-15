@@ -45,13 +45,10 @@ updateClockface({ days, hours, mins, secs }) {
     secsRef.textContent = `${secs}`
 }
 
-
 }
-
-
 
 
 new CountdownTimer({
   selector: '#timer-1',
-  targetDate: new Date('Feb 04, 2021 23:59:59'),
+  targetDate: new Date('Feb 14, 2021 23:59:59'),
 });
